@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="jsa/jquery-3.7.1.min.js"></script>
+
+    <style>
+        .card {
+
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .card img {
+            height: 300px;
+            width: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .card:hover img {
+            transform: scale(1.1);
+
+        }
+
+        .card:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        * {
+            margin: 0px;
+        }
+
+        .banner {
+            background-image: url(img/best-laptop-brands-20230420-3-medium.jpg);
+            background-size: cover;
+            height: 690px;
+            width: 100%;
+            color: rgb(0, 0, 0);
+            justify-content: space-evenly;
+            font-style: bold;
+            border-bottom: 2px solid black;
+
+        }
+
+        .text h1 {
+            font-size: 100px;
+            padding-top: 350px;
+            padding-left: 900px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+
+        body {
+
+            background-color: rgb(45, 62, 131);
+        }
+
+        .card {
+            justify-content: space-evenly;
+            align-items: center;
+            display: flex
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid text-info">
+            <a class="navbar-brand" href="#">Pc Outlet</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-light navbar-nav-scroll" style="--bs-scroll-height: ;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="h.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="h.html#registrationForm">enquire</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            catogories
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="htm.html">gaming pc</a></li>
+                            <li><a class="dropdown-item" href="desk pc.html">desktop</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="laptop.html">laptops</a></li>
+                        </ul>
+                    </li>
+                   
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="banner">
+        <h1 class="display-5 text-dark">Laptop</h1>
+
+    </div>
+    <div class="card-group">
+        <div class="card">
+            <img src="img/laptop_dell_vostro_15_3520_intel_core_i5-1235u_carbon_black.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Basic work</h5>
+                <p class="card-text">Laptop Dell Vostro 3520 Intel Core i5-1235U Processor, 8GB Ram, 512GB SSD M.2,
+                    Intel UHD Graphics, 15.6 Inch Full HD Display 1920x1080, Free Dos - Carbon Black</p>
+                <a href="h.html#registrationForm" class="btn btn-primary stretched-link">Buy</a>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/dell_latitude_5540_laptop_13th_gen_intel_core_i5-1335u_processor (1).jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Corporate work</h5>
+                <p class="card-text">Laptop Dell Latitude 5540 Intel Core i7-1355U Processor, 16GB Ram, 2TB SSD M.2,
+                    Intel Integrated Graphics, 15.6-inch Full HD Display 1920x1080, Free Dos - Grey
+                </p>
+                <a href="h.html#registrationForm" class="btn btn-primary stretched-link">Buy</a>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/laptop_asus_rog_strix_gaming_g614ji-n3082_intel_core_i7-13650hx_processor_8.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Portable beast</h5>
+                <p class="card-text">Laptop Asus ROG Strix Gaming G614JIR Intel Core i9-14900HX Processor, 32GB Ram, 1TB
+                    SSD M.2, NVIDIA GeForce RTX 4070 8GB,16-inch QHD Display 2560x1600, IPS, 240Hz, G-Sync, Backlit
+                    Chiclet Keyboard 4-Zone RGB, Free Dos - Eclipse Gray 
+                </p>
+                <a href="h.html#registrationForm" class="btn btn-primary stretched-link">Buy</a>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+
+
+        <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
+
+            <section class="d-flex justify-content-between p-4" style="background-color: #6351ce">
+
+                <div class="me-5">
+                    <span></span>
+                </div>
+
+
+
+            </section>
+
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+
+                    <div class="row mt-3">
+
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                            <h6 class="text-uppercase fw-bold">Pc Outlet</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                Shop. Smile. Repeat.
+                            </p>
+                        </div>
+
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                            <h6 class="text-uppercase fw-bold">Products</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                <a href="htm.html" class="text-white">gaming pc</a>
+                            </p>
+                            <p>
+                                <a href="laptop.html" class="text-white">laptops</a>
+                            </p>
+                            <p>
+                                <a href="desk pc.html" class="text-white">desk pc</a>
+                            </p>
+
+                        </div>
+
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold">Useful links</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p>
+
+                            <p>
+                                <a href="h.html#registrationForm " class="text-white">Contact us</a>
+                            </p>
+                           
+                        </div>
+                        
+
+                       
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                           
+                            <h6 class="text-uppercase fw-bold">Contact</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p><i class="fas fa-home mr-3"></i> Karachi,Pakistan</p>
+                            <p><i class="fas fa-envelope mr-3"></i> hsyed2385@gmail.com</p>
+                            <p><i class="fas fa-phone mr-3"></i> + 92 330403883</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2024 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">Pc Outlet</a>
+            </div>
+</body>
+
+</html>
